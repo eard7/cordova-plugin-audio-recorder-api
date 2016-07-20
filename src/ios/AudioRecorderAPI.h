@@ -13,5 +13,6 @@
 - (void)record:(CDVInvokedUrlCommand*)command;
 - (void)stop:(CDVInvokedUrlCommand*)command;
 - (void)playback:(CDVInvokedUrlCommand*)command;
+- (NSString *)encodeBase64WithData:(NSData *)objData;
 
 @end

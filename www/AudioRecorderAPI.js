@@ -9,6 +9,10 @@ AudioRecorderAPI.prototype.stop = function (successCallback, errorCallback) {
   cordova.exec(successCallback, errorCallback, "AudioRecorderAPI", "stop", []);
 };
 
+AudioRecorderAPI.prototype.stopTimer = function (successCallback, errorCallback) {
+  cordova.exec(successCallback, errorCallback, "AudioRecorderAPI", "stopTimer", []);
+};
+
 AudioRecorderAPI.prototype.playback = function (successCallback, errorCallback) {
   cordova.exec(successCallback, errorCallback, "AudioRecorderAPI", "playback", []);
 };
